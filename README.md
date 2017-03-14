@@ -1,24 +1,75 @@
-# README
+# **InstaFactory**
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Using Ruby on Rails to re-create the concept of Instagram.
 
-* Ruby version
+# Getting Started
 
-* System dependencies
+### *Rails Installation*
 
-* Configuration
+To install Rails, use the gem install command provided by RubyGems:
 
-* Database creation
+```sh
+$ gem install rails
+```
 
-* Database initialization
+#### *Starting a Rails Project*
 
-* How to run the test suite
+To start you rails project, go back into the terminal and run this command. Replace the word "project" with the desired name for your directory.
 
-* Services (job queues, cache servers, search engines, etc.)
+```sh
+$ rails new project
+```
 
-* Deployment instructions
+### *Running the Server*
 
-* ...
+To run the rails server, make sure you are in your project's folder and run the following command inside terminal:
+
+```sh
+$ rails s
+```
+
+# Materialize Sass Version for Rails
+This gem was installed to be used for the navigation bar from http://materializecss.com/navbar.html.
+
+#### *Installation*
+
+``materialize-sass`` is a Sass powered version of Materialize, a modern responsive front-end framework based on Material Design.
+
+In your Gemfile in the nely created rails directory add the following gem:
+
+```sh
+gem 'materialize-sass'
+```
+
+Go back into the terminal and ``
+bundle install
+``.
+
+#### *Usage*
+
+Import Materialize styles in ``app/assets/stylesheets/application.scss``:
+
+```sh
+@import "materialize";
+```
+
+Require Materialize javascripts in ``app/assets/javascripts/application.js``:
+```sh
+//= require materialize-sprockets
+```
+
+For a complete guide and more info, please refer to https://github.com/mkhairi/materialize-sass for full instructions.
+
+# Devise Gem
+
+This gem was used to install the log in/out function for the site. For full isntallation instructions please visit https://github.com/plataformatec/devise.
+
+In your Gemfile add the following gem:
+```sh
+gem 'devise'
+```
+
+Go back into the terminal and ``
+bundle install
+``.
