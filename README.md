@@ -73,3 +73,30 @@ gem 'devise'
 Go back into the terminal and ``
 bundle install
 ``.
+
+# CarrierWave Gem
+
+This gem was used to install the photo uploader for the site. It provides a simple and extremely flexible way to upload files from Ruby applications.
+
+In your Gemfile add the following gem:
+```sh
+gem 'carrierwave', '~> 1.0'
+```
+
+For full isntallation and usage instructions please visit https://github.com/carrierwaveuploader/carrierwave.
+
+# Socialization Gem
+
+This gem was used follow/unfollow and like/unlike photos. Socialization is a Ruby Gem that allows any ActiveRecord model to Follow, Like and/or Mention any other model.  
+
+In your Gemfile add the following gem:
+```sh
+gem 'carrierwave', '~> 1.0'
+```
+
+Run the generator:
+```sh
+rails generate socialization -s
+```
+
+For full isntallation and usage instructions please visit https://github.com/cmer/socialization.
