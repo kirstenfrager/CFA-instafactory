@@ -3,7 +3,7 @@ class User < ApplicationRecord
   acts_as_followable
 
   acts_as_liker
-  acts_as_likeable
+
 
 has_many :posts
 

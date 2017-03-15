@@ -30,3 +30,14 @@ $secondary-color: color("yellow", "base") !default;
   font-weight: bold;
   font-style: italic;
 }
+
+button {
+  border: solid 2px black;
+  border-radius: 20%;
+  height: 50px;
+  width: 100px;
+}
+
+button:hover {
+  background-color: black;
+}

@@ -2,8 +2,6 @@ Rails.application.routes.draw do
   resources :posts do
     member do
       get 'toggle_follow', to: 'posts#toggle_follow'
-    end
-    member do
       get 'toggle_like', to: 'posts#toggle_like'
     end
 end
